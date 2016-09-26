@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="arunachal" />
+    <item type="id" name="assam" />
+    <item type="id" name="bihar" />
+    <item type="id" name="chandigarh" />
+    <item type="id" name="delhi" />
+    <item type="id" name="goa" />
+    <item type="id" name="haryana" />
+    <item type="id" name="madhya_pradesh" />
+    <!--Arunachal State's City Ids-->
+    <item type="id" name="tawang" />
+    <item type="id" name="itanagar" />
+    <item type="id" name="roing" />
+    <item type="id" name="bondila" />
+    <item type="id" name="ziro" />
+    <!--Assam State's City Ids-->
+    <item type="id" name="guwahati" />
+    <item type="id" name="kaziranga" />
+    <item type="id" name="orang" />
+    <item type="id" name="jorhat" />
+    <item type="id" name="nameri" />
+    <!--Bihar State's City Ids-->
+    <item type="id" name="patna" />
+    <item type="id" name="bodhgaya" />
+    <item type="id" name="rajgir" />
+    <item type="id" name="nalanda" />
+    <item type="id" name="sonepur" />
+    <item type="id" name="bhagalpur" />
+    <item type="id" name="darbhanga" />
+    <!--Chandigarh State's City Ids-->
+    <item type="id" name="chandigarh_city" />
+    <!--Delhi State's City Ids-->
+    <item type="id" name="delhi_city" />
+    <!--Goa State's City Ids-->
+    <item type="id" name="goa_city" />
+      <!--Haryana State's City Ids-->
+    <item type="id" name="gurgaon" />
+    <item type="id" name="karnal" />
+    <item type="id" name="kurukshetra" />
+    <item type="id" name="panipat" />
+    <item type="id" name="hisar" />
+     <!--Madhya Pradesh State's City Ids-->
+    <item type="id" name="gwalior" />
+    <item type="id" name="indore" />
+    <item type="id" name="bhopal" />
+    <item type="id" name="khajuraho" />
+    <item type="id" name="sanchi" />
+
+
+   </resources>

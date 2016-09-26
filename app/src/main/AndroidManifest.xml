@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AssamActivity"
+            android:label="Assam"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ArunachalActivity" />
+        <activity
+            android:name=".BiharActivity"
+            android:label="@string/bihar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChandigarhActivity"
+            android:label="Chandigarh"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DelhiActivity"
+            android:label="Delhi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GoaActivity"
+            android:label="Goa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HaryanaActivity"
+            android:label="Haryana"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MadhyaPradeshActivity"
+            android:label="Madhya Pradesh"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PatnaCityDetailsActivity"
+            android:label="@string/patna_name"
+            android:parentActivityName=".BiharActivity" />
+        <activity android:name=".TawangCityDetailsActivity" />
+        <activity android:name=".ItanagarCityDetailsActivity" />
+        <activity android:name=".RoingCityDetailsActivity" />
+        <activity android:name=".BondilaCityDetailsActivity" />
+        <activity android:name=".GuwahatiCityDetailsActivity" />
+        <activity android:name=".KazirangaCityDetailsActivity" />
+        <activity android:name=".OrangCityDetailsActivity" />
+        <activity android:name=".JorhatCityDetailsActivity" />
+        <activity android:name=".NameriCityDetailsActivity" />
+        <activity android:name=".BodhgayaCityDetailsActivity" />
+        <activity android:name=".BhagalpurCityDetailsActivity" />
+        <activity android:name=".NalandaCityDetailsActivity" />
+        <activity android:name=".SonepurCityDetailsActivity" />
+        <activity android:name=".DarbhangaCityDetailsActivity" />
+        <activity android:name=".ChandigarhCityDetailsActivity" />
+        <activity android:name=".DelhiCityDetailsActivity" />
+        <activity android:name=".GoaCityDetailsActivity" />
+        <activity android:name=".GurgaonCityDetailsActivity" />
+        <activity android:name=".KarnalCityDetailsActivity" />
+        <activity android:name=".KurukshetraCityDetailsActivity" />
+        <activity android:name=".PanipatCityDetailsActivity" />
+        <activity android:name=".HisarCityDetailsActivity" />
+        <activity android:name=".ZiroCityDetailsActivity" />
+        <activity android:name=".GwaliorCityDetailsActivity" />
+        <activity android:name=".IndoreCityDetailsActivity" />
+        <activity android:name=".BhopalCityDetailsActivity" />
+        <activity android:name=".KhajurahoCityDetailsActivity" />
+        <activity android:name=".SanchiCityDetailsActivity"></activity>
+    </application>
+
+</manifest>

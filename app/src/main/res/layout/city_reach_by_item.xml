@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/city_reach_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/city_reach_by_train_station_image"
+                style="@style/list_item_image_layout"
+                android:layout_height="160sp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/city_reach_by_train"
+                style="@style/list_item_text_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                tools:text="State/City Name" />
+            <TextView
+                android:id="@+id/city_reach_by_bus"
+                style="@style/list_item_text_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                tools:text="State/City Name" />
+            <TextView
+                android:id="@+id/city_reach_by_flight"
+                style="@style/list_item_text_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                tools:text="State/City Name" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

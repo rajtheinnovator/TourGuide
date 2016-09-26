@@ -1,0 +1,448 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <!--State Names-->
+    <string name="andaman_nicobar">Andaman &amp; Nicobar Island</string>
+    <string name="andhra">Andhra Pradesh</string>
+    <string name="arunachal">Arunachal Pradesh</string>
+    <string name="assam">Assam</string>
+    <string name="bihar">Bihar</string>
+    <string name="chandigarh">Chandigarh</string>
+    <string name="chhatisgarh">Chhatisgarh</string>
+    <string name="dadar">Dadar &amp; Nagar Haweli</string>
+    <string name="daman">Daman &amp; Diu</string>
+    <string name="delhi">Delhi</string>
+    <string name="goa">Goa</string>
+    <string name="haryana">Haryana</string>
+    <string name="himanchal">Himanchal Pradesh</string>
+    <string name="jammu_kashmir">Jammu &amp; Kashmir</string>
+    <string name="jharkhand">Jharkhand</string>
+    <string name="karnataka">Karnataka</string>
+    <string name="kerala">Kerala</string>
+    <string name="lakshadweep">Lakshadweep</string>
+    <string name="madhya_pradesh">Madhya Pradesh</string>
+    <string name="maharashtra">Maharashtra</string>
+    <string name="manipur">Manipur</string>
+    <string name="meghalaya">Meghalaya</string>
+    <string name="mizoram">Mizoram</string>
+    <string name="nagaland">Nagaland</string>
+    <string name="odisha">Odisha</string>
+    <string name="pondicherry">Pondicherry</string>
+    <string name="punjab">Punjab</string>
+    <string name="rajasthan">Rajasathan</string>
+    <string name="sikkim">Sikkim</string>
+    <string name="tamilnadu">Tamil Nadu</string>
+    <string name="telangana">Telangana</string>
+    <string name="tripura">Tripura</string>
+    <string name="uttar_pradesh">Uttar Pradesh</string>
+    <string name="uttarakhand">Uttarakhand</string>
+    <string name="west_bengal">West Bengal</string>
+    <!--All City names and descriptions-->
+    <!--City of Arunachal State with description-->
+    <string name="tawang_name">Tawang</string>
+    <string name="tawang_information">Tawang Information</string>
+    <string name="tawang_hotel1information"></string>
+    <string name="tawang_hotel2information"></string>
+    <string name="tawang_reach_by_train"></string>
+    <string name="tawang_reach_by_bus"></string>
+    <string name="tawang_reach_by_flight"></string>
+    <string name="tawang_mustVisit_place1Information"></string>
+    <string name="tawang_mustVisit_place2Information"></string>
+    <string name="tawang_mustVisit_place3Information"></string>
+
+    <string name="itanagar_name">Itanagar</string>
+    <string name="itanagar_hotel1information"></string>
+    <string name="itanagar_hotel2information"></string>
+    <string name="itanagar_reach_by_train"></string>
+    <string name="itanagar_reach_by_bus"></string>
+    <string name="itanagar_reach_by_flight"></string>
+    <string name="itanagar_mustVisit_place1Information"></string>
+    <string name="itanagar_mustVisit_place2Information"></string>
+    <string name="itanagar_mustVisit_place3Information"></string>
+
+    <string name="roing_name">Roing</string>
+    <string name="roing_information"></string>
+    <string name="roing_hotel1information"></string>
+    <string name="roing_hotel2information"></string>
+    <string name="roing_reach_by_train"></string>
+    <string name="roing_reach_by_bus"></string>
+    <string name="roing_reach_by_flight"></string>
+    <string name="roing_mustVisit_place1Information"></string>
+    <string name="roing_mustVisit_place2Information"></string>
+    <string name="roing_mustVisit_place3Information"></string>
+
+    <string name="bondila_name">Bondila</string>
+    <string name="bondila_information"></string>
+    <string name="bondila_hotel1information"></string>
+    <string name="bondila_hotel2information"></string>
+    <string name="bondila_reach_by_train"></string>
+    <string name="bondila_reach_by_bus"></string>
+    <string name="bondila_reach_by_flight"></string>
+    <string name="bondila_mustVisit_place1Information"></string>
+    <string name="bondila_mustVisit_place2Information"></string>
+    <string name="bondila_mustVisit_place3Information"></string>
+
+    <string name="ziro_name">Ziro</string>
+    <string name="ziro_information"></string>
+    <string name="ziro_hotel1information"></string>
+    <string name="ziro_hotel2information"></string>
+    <string name="ziro_reach_by_train"></string>
+    <string name="ziro_reach_by_bus"></string>
+    <string name="ziro_reach_by_flight"></string>
+    <string name="ziro_mustVisit_place1Information"></string>
+    <string name="ziro_mustVisit_place2Information"></string>
+    <string name="ziro_mustVisit_place3Information"></string>
+
+    <!--City of Assam State with description-->
+    <string name="guwahati_name">Guwahati</string>
+    <string name="guwahati_information">Guwahati Information</string>
+    <string name="guwahati_hotel1information"></string>
+    <string name="guwahati_hotel2information"></string>
+    <string name="guwahati_reach_by_train"></string>
+    <string name="guwahati_reach_by_bus"></string>
+    <string name="guwahati_reach_by_flight"></string>
+    <string name="guwahati_mustVisit_place1Information"></string>
+    <string name="guwahati_mustVisit_place2Information"></string>
+    <string name="guwahati_mustVisit_place3Information"></string>
+
+    <string name="kaziranga_name">Kaziranga</string>
+    <string name="kaziranga_information">Kaziranga</string>
+    <string name="kaziranga_hotel1information">Kaziranga</string>
+    <string name="kaziranga_hotel2information">Kaziranga</string>
+    <string name="kaziranga_reach_by_train">Kaziranga</string>
+    <string name="kaziranga_reach_by_bus">Kaziranga</string>
+    <string name="kaziranga_reach_by_flight">Kaziranga</string>
+    <string name="kaziranga_mustVisit_place1Information">Kaziranga</string>
+    <string name="kaziranga_mustVisit_place2Information">Kaziranga</string>
+    <string name="kaziranga_mustVisit_place3Information">Kaziranga</string>
+
+    <string name="orang_name">Orang</string>
+    <string name="orang_information"></string>
+    <string name="orang_hotel1information"></string>
+    <string name="orang_hotel2information"></string>
+    <string name="orang_reach_by_train"></string>
+    <string name="orang_reach_by_bus"></string>
+    <string name="orang_reach_by_flight"></string>
+    <string name="orang_mustVisit_place1Information"></string>
+    <string name="orang_mustVisit_place2Information"></string>
+    <string name="orang_mustVisit_place3Information"></string>
+
+    <string name="jorhat_name">Jorhat</string>
+    <string name="jorhat_information"></string>
+    <string name="jorhat_hotel1information"></string>
+    <string name="jorhat_hotel2information"></string>
+    <string name="jorhat_reach_by_train"></string>
+    <string name="jorhat_reach_by_bus"></string>
+    <string name="jorhat_reach_by_flight"></string>
+    <string name="jorhat_mustVisit_place1Information"></string>
+    <string name="jorhat_mustVisit_place2Information"></string>
+    <string name="jorhat_mustVisit_place3Information"></string>
+
+    <string name="nameri_name">Nameri</string>
+    <string name="nameri_information"></string>
+    <string name="nameri_hotel1information"></string>
+    <string name="nameri_hotel2information"></string>
+    <string name="nameri_reach_by_train"></string>
+    <string name="nameri_reach_by_bus"></string>
+    <string name="nameri_reach_by_flight"></string>
+    <string name="nameri_mustVisit_place1Information"></string>
+    <string name="nameri_mustVisit_place2Information"></string>
+    <string name="nameri_mustVisit_place3Information"></string>
+
+    <!--City of Bihar State with description-->
+    <string name="patna_name">Patna</string>
+    <string name="patna_information">This is some test text. This is some test text. This is some
+        test text. This is some test text. This is some test text. This is some test text. This is
+        some test text. This is some test text. This is some test text. This is some test text. This
+        is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.</string>
+
+    <string name="patna_hotel1information">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_hotel2information">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_reach_by_train">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_reach_by_bus">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_reach_by_flight">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_mustVisit_place1Information">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_mustVisit_place2Information">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+    <string name="patna_mustVisit_place3Information">  This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+        This is some test text. This is some test text. This is some test text. This is some test text.
+    </string>
+
+    <string name="bodhgaya_name">Bodhgaya</string>
+    <string name="bodhgaya_information"></string>
+    <string name="bodhgaya_hotel1information"></string>
+    <string name="bodhgaya_hotel2information"></string>
+    <string name="bodhgaya_reach_by_train"></string>
+    <string name="bodhgaya_reach_by_bus"></string>
+    <string name="bodhgaya_reach_by_flight"></string>
+    <string name="bodhgaya_mustVisit_place1Information"></string>
+    <string name="bodhgaya_mustVisit_place2Information"></string>
+    <string name="bodhgaya_mustVisit_place3Information"></string>
+
+    <string name="bhagalpur_name">Bhagalpur</string>
+    <string name="bhagalpur_information"></string>
+    <string name="bhagalpur_hotel1information"></string>
+    <string name="bhagalpur_hotel2information"></string>
+    <string name="bhagalpur_reach_by_train"></string>
+    <string name="bhagalpur_reach_by_bus"></string>
+    <string name="bhagalpur_reach_by_flight"></string>
+    <string name="bhagalpur_mustVisit_place1Information"></string>
+    <string name="bhagalpur_mustVisit_place2Information"></string>
+    <string name="bhagalpur_mustVisit_place3Information"></string>
+
+    <string name="rajgir_name">Rajgir</string>
+    <string name="rajgir_information"></string>
+    <string name="rajgir_hotel1information"></string>
+    <string name="rajgir_hotel2information"></string>
+    <string name="rajgir_reach_by_train"></string>
+    <string name="rajgir_reach_by_bus"></string>
+    <string name="rajgir_reach_by_flight"></string>
+    <string name="rajgir_mustVisit_place1Information"></string>
+    <string name="rajgir_mustVisit_place2Information"></string>
+    <string name="rajgir_mustVisit_place3Information"></string>
+
+    <string name="nalanda_name">Nalanda</string>
+    <string name="nalanda_information"></string>
+    <string name="nalanda_hotel1information"></string>
+    <string name="nalanda_hotel2information"></string>
+    <string name="nalanda_reach_by_train"></string>
+    <string name="nalanda_reach_by_bus"></string>
+    <string name="nalanda_reach_by_flight"></string>
+    <string name="nalanda_mustVisit_place1Information"></string>
+    <string name="nalanda_mustVisit_place2Information"></string>
+    <string name="nalanda_mustVisit_place3Information"></string>
+
+    <string name="sonepur_name">Sonepur</string>
+    <string name="sonepur_information"></string>
+    <string name="sonepur_hotel1information"></string>
+    <string name="sonepur_hotel2information"></string>
+    <string name="sonepur_reach_by_train"></string>
+    <string name="sonepur_reach_by_bus"></string>
+    <string name="sonepur_reach_by_flight"></string>
+    <string name="sonepur_mustVisit_place1Information"></string>
+    <string name="sonepur_mustVisit_place2Information"></string>
+    <string name="sonepur_mustVisit_place3Information"></string>
+
+    <string name="darbhanga_name">Darbhanga</string>
+    <string name="darbhanga_information"></string>
+    <string name="darbhanga_hotel1information"></string>
+    <string name="darbhanga_hotel2information"></string>
+    <string name="darbhanga_reach_by_train"></string>
+    <string name="darbhanga_reach_by_bus"></string>
+    <string name="darbhanga_reach_by_flight"></string>
+    <string name="darbhanga_mustVisit_place1Information"></string>
+    <string name="darbhanga_mustVisit_place2Information"></string>
+    <string name="darbhanga_mustVisit_place3Information"></string>
+    <!--City of Chandigarh State with description-->
+    <string name="chandigarh_name">Chandigarh</string>
+    <string name="chandigarh_information"></string>
+    <string name="chandigarh_hotel1information"></string>
+    <string name="chandigarh_hotel2information"></string>
+    <string name="chandigarh_reach_by_train"></string>
+    <string name="chandigarh_reach_by_bus"></string>
+    <string name="chandigarh_reach_by_flight"></string>
+    <string name="chandigarh_mustVisit_place1Information"></string>
+    <string name="chandigarh_mustVisit_place2Information"></string>
+    <string name="chandigarh_mustVisit_place3Information"></string>
+
+    <!--City of Delhi State with description-->
+    <string name="delhi_name">Delhi</string>
+    <string name="delhi_hotel1information"></string>
+    <string name="delhi_hotel2information"></string>
+    <string name="delhi_reach_by_train"></string>
+    <string name="delhi_reach_by_bus"></string>
+    <string name="delhi_reach_by_flight"></string>
+    <string name="delhi_mustVisit_place1Information"></string>
+    <string name="delhi_mustVisit_place2Information"></string>
+    <string name="delhi_mustVisit_place3Information"></string>
+
+    <!--City of Goa State with description-->
+    <string name="goa_name">Goa</string>
+    <string name="goa_hotel1information"></string>
+    <string name="goa_hotel2information"></string>
+    <string name="goa_reach_by_train"></string>
+    <string name="goa_reach_by_bus"></string>
+    <string name="goa_reach_by_flight"></string>
+    <string name="goa_mustVisit_place1Information"></string>
+    <string name="goa_mustVisit_place2Information"></string>
+    <string name="goa_mustVisit_place3Information"></string>
+
+    <!--City of Haryana State with description-->
+    <string name="gurgaon_name">Gurgaon</string>
+    <string name="gurgaon_information">Patna Information</string>
+    <string name="gurgaon_hotel1information"></string>
+    <string name="gurgaon_hotel2information"></string>
+    <string name="gurgaon_reach_by_train"></string>
+    <string name="gurgaonpatna_reach_by_bus"></string>
+    <string name="gurgaon_reach_by_flight"></string>
+    <string name="gurgaon_mustVisit_place1Information"></string>
+    <string name="gurgaon_mustVisit_place2Information"></string>
+    <string name="gurgaon_mustVisit_place3Information"></string>
+
+    <string name="karnal_name">Karnal</string>
+    <string name="karnal_information"></string>
+    <string name="karnal_hotel1information"></string>
+    <string name="karnal_hotel2information"></string>
+    <string name="karnal_reach_by_train"></string>
+    <string name="karnal_reach_by_bus"></string>
+    <string name="karnal_reach_by_flight"></string>
+    <string name="karnal_mustVisit_place1Information"></string>
+    <string name="karnal_mustVisit_place2Information"></string>
+    <string name="karnal_mustVisit_place3Information"></string>
+
+    <string name="kurukshetra_name">Kurukshetra</string>
+    <string name="kurukshetra_information"></string>
+    <string name="kurukshetra_hotel1information"></string>
+    <string name="kurukshetra_hotel2information"></string>
+    <string name="kurukshetra_reach_by_train"></string>
+    <string name="kurukshetra_reach_by_bus"></string>
+    <string name="kurukshetra_reach_by_flight"></string>
+    <string name="kurukshetra_mustVisit_place1Information"></string>
+    <string name="kurukshetra_mustVisit_place2Information"></string>
+    <string name="kurukshetra_mustVisit_place3Information"></string>
+
+    <string name="panipat_name">Panipat</string>
+    <string name="panipat_information"></string>
+    <string name="panipat_hotel1information"></string>
+    <string name="panipat_hotel2information"></string>
+    <string name="panipat_reach_by_train"></string>
+    <string name="panipat_reach_by_bus"></string>
+    <string name="panipat_reach_by_flight"></string>
+    <string name="panipat_mustVisit_place1Information"></string>
+    <string name="panipat_mustVisit_place2Information"></string>
+    <string name="panipat_mustVisit_place3Information"></string>
+
+    <string name="hisar_name">Hisar</string>
+    <string name="hisar_information"></string>
+    <string name="hisar_hotel1information"></string>
+    <string name="hisar_hotel2information"></string>
+    <string name="hisar_reach_by_train"></string>
+    <string name="hisar_reach_by_bus"></string>
+    <string name="hisar_reach_by_flight"></string>
+    <string name="hisar_mustVisit_place1Information"></string>
+    <string name="hisar_mustVisit_place2Information"></string>
+    <string name="hisar_mustVisit_place3Information"></string>
+
+    <!--City of Madhya Pradesh State with description-->
+    <string name="gwalior_name">Gwalior</string>
+    <string name="gwalior_information">Patna Information</string>
+    <string name="gwalior_hotel1information"></string>
+    <string name="gwalior_hotel2information"></string>
+    <string name="gwalior_reach_by_train"></string>
+    <string name="gwalior_reach_by_bus"></string>
+    <string name="gwalior_reach_by_flight"></string>
+    <string name="gwalior_mustVisit_place1Information"></string>
+    <string name="gwalior_mustVisit_place2Information"></string>
+    <string name="gwalior_mustVisit_place3Information"></string>
+
+    <string name="indore_name">Indore</string>
+    <string name="indore_information"></string>
+    <string name="indore_hotel1information"></string>
+    <string name="indore_hotel2information"></string>
+    <string name="indore_reach_by_train"></string>
+    <string name="indore_reach_by_bus"></string>
+    <string name="indore_reach_by_flight"></string>
+    <string name="indore_mustVisit_place1Information"></string>
+    <string name="indore_mustVisit_place2Information"></string>
+    <string name="indore_mustVisit_place3Information"></string>
+
+    <string name="bhopal_name">Bhopal</string>
+    <string name="bhopal_information"></string>
+    <string name="bhopal_hotel1information"></string>
+    <string name="bhopal_hotel2information"></string>
+    <string name="bhopal_reach_by_train"></string>
+    <string name="bhopal_reach_by_bus"></string>
+    <string name="bhopal_reach_by_flight"></string>
+    <string name="bhopal_mustVisit_place1Information"></string>
+    <string name="bhopal_mustVisit_place2Information"></string>
+    <string name="bhopal_mustVisit_place3Information"></string>
+
+    <string name="khajuraho_name">Khajuraho</string>
+    <string name="khajuraho_information"></string>
+    <string name="khajuraho_hotel1information"></string>
+    <string name="khajuraho_hotel2information"></string>
+    <string name="khajuraho_reach_by_train"></string>
+    <string name="khajuraho_reach_by_bus"></string>
+    <string name="khajuraho_reach_by_flight"></string>
+    <string name="khajuraho_mustVisit_place1Information"></string>
+    <string name="khajuraho_mustVisit_place2Information"></string>
+    <string name="khajuraho_mustVisit_place3Information"></string>
+
+    <string name="sanchi_name">Sanchi</string>
+    <string name="sanchi_information"></string>
+    <string name="sanchi_hotel1information"></string>
+    <string name="sanchi_hotel2information"></string>
+    <string name="sanchi_reach_by_train"></string>
+    <string name="sanchi_reach_by_bus"></string>
+    <string name="sanchi_reach_by_flight"></string>
+    <string name="sanchi_mustVisit_place1Information"></string>
+    <string name="sanchi_mustVisit_place2Information"></string>
+    <string name="sanchi_mustVisit_place3Information"></string>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/city_must_visit_place1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/city_must_visit_place1_image"
+                style="@style/list_item_image_layout"
+                android:layout_height="160sp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/city_must_visit_place1_Information"
+                style="@style/list_item_text_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                tools:text="State/City Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/city_must_visit_place2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/city_must_visit_place2_image"
+                style="@style/list_item_image_layout"
+                android:layout_height="160sp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/city_must_visit_place2_Information"
+                style="@style/list_item_text_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                tools:text="State/City Name" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/city_must_visit_place3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/city_must_visit_place3_image"
+                style="@style/list_item_image_layout"
+                android:layout_height="160sp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/city_must_visit_place3_Information"
+                style="@style/list_item_text_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                tools:text="State/City Name" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
