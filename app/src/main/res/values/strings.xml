@@ -95,14 +95,14 @@
     <!--City of Assam State with description-->
     <string name="guwahati_name">Guwahati</string>
     <string name="guwahati_information">Guwahati Information</string>
-    <string name="guwahati_hotel1information"></string>
-    <string name="guwahati_hotel2information"></string>
-    <string name="guwahati_reach_by_train"></string>
-    <string name="guwahati_reach_by_bus"></string>
-    <string name="guwahati_reach_by_flight"></string>
-    <string name="guwahati_mustVisit_place1Information"></string>
-    <string name="guwahati_mustVisit_place2Information"></string>
-    <string name="guwahati_mustVisit_place3Information"></string>
+    <string name="guwahati_hotel1information">Guwahati Information</string>
+    <string name="guwahati_hotel2information">Guwahati Information</string>
+    <string name="guwahati_reach_by_train">Guwahati Information</string>
+    <string name="guwahati_reach_by_bus">Guwahati Information</string>
+    <string name="guwahati_reach_by_flight">Guwahati Information</string>
+    <string name="guwahati_mustVisit_place1Information">Guwahati Information</string>
+    <string name="guwahati_mustVisit_place2Information">Guwahati Information</string>
+    <string name="guwahati_mustVisit_place3Information">Guwahati Information</string>
 
     <string name="kaziranga_name">Kaziranga</string>
     <string name="kaziranga_information">Kaziranga</string>

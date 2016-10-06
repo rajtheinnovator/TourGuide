@@ -47,7 +47,7 @@ public class AssamActivity extends AppCompatActivity{
                 StatesAndCity state = cities.get(position);
                 switch (state.getmStateOrCityresourceId()) {
                     case R.id.guwahati:
-                        Intent guwahatiIntent = new Intent(AssamActivity.this, GuwahatiCityDetailsActivity.class);
+                        Intent guwahatiIntent = new Intent(AssamActivity.this, CityDetailsActivity.class);
                         cityDetail.clear();
                         cityHotels.clear();
                         cityReachBy.clear();
@@ -81,7 +81,7 @@ public class AssamActivity extends AppCompatActivity{
                         startActivity(guwahatiIntent);
                         break;
                     case R.id.kaziranga:
-                        guwahatiIntent = new Intent(AssamActivity.this, GuwahatiCityDetailsActivity.class);
+                        guwahatiIntent = new Intent(AssamActivity.this, CityDetailsActivity.class);
                         cityDetail.clear();
                         cityHotels.clear();
                         cityReachBy.clear();

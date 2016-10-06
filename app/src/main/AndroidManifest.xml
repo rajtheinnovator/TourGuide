@@ -44,24 +44,15 @@
             android:name=".MadhyaPradeshActivity"
             android:label="Madhya Pradesh"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".PatnaCityDetailsActivity"
-            android:label="@string/patna_name"
-            android:parentActivityName=".BiharActivity" />
         <activity android:name=".TawangCityDetailsActivity" />
         <activity android:name=".ItanagarCityDetailsActivity" />
         <activity android:name=".RoingCityDetailsActivity" />
         <activity android:name=".BondilaCityDetailsActivity" />
-        <activity android:name=".GuwahatiCityDetailsActivity" />
+        <activity android:name=".CityDetailsActivity" />
         <activity android:name=".KazirangaCityDetailsActivity" />
         <activity android:name=".OrangCityDetailsActivity" />
         <activity android:name=".JorhatCityDetailsActivity" />
         <activity android:name=".NameriCityDetailsActivity" />
-        <activity android:name=".BodhgayaCityDetailsActivity" />
-        <activity android:name=".BhagalpurCityDetailsActivity" />
-        <activity android:name=".NalandaCityDetailsActivity" />
-        <activity android:name=".SonepurCityDetailsActivity" />
-        <activity android:name=".DarbhangaCityDetailsActivity" />
         <activity android:name=".ChandigarhCityDetailsActivity" />
         <activity android:name=".DelhiCityDetailsActivity" />
         <activity android:name=".GoaCityDetailsActivity" />

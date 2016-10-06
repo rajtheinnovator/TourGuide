@@ -48,11 +48,7 @@ public class BiharActivity extends AppCompatActivity {
                 StatesAndCity state = cities.get(position);
                 switch (state.getmStateOrCityresourceId()) {
                     case R.id.patna:
-                        Intent patnaIntent = new Intent(BiharActivity.this, PatnaCityDetailsActivity.class);
-                        startActivity(patnaIntent);
-                        break;
-                    case R.id.bhagalpur:
-                        Intent guwahatiIntent = new Intent(BiharActivity.this, GuwahatiCityDetailsActivity.class);
+                        Intent patnaIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
                         cityDetail.clear();
                         cityHotels.clear();
                         cityReachBy.clear();
@@ -67,26 +63,120 @@ public class BiharActivity extends AppCompatActivity {
                                 getResources().getString(R.string.guwahati_mustVisit_place2Information),
                                 (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
-                        guwahatiIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
-                        guwahatiIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
-                        guwahatiIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
-                        guwahatiIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
-                        startActivity(guwahatiIntent);
+                        patnaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        patnaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        patnaIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        patnaIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+                        startActivity(patnaIntent);
+                        break;
+                    case R.id.bhagalpur:
+                        Intent bhagalpurIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
+                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
+                                getResources().getString(R.string.guwahati_reach_by_bus),
+                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
+                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
+                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                                R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+                        bhagalpurIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        bhagalpurIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        bhagalpurIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        bhagalpurIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+                        startActivity(bhagalpurIntent);
                         break;
                     case R.id.bodhgaya:
-                        Intent bodhgayaIntent = new Intent(BiharActivity.this, BodhgayaCityDetailsActivity.class);
+                        Intent bodhgayaIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
+                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
+                                getResources().getString(R.string.guwahati_reach_by_bus),
+                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
+                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
+                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                                R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+                        bodhgayaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        bodhgayaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        bodhgayaIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        bodhgayaIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
                         startActivity(bodhgayaIntent);
                         break;
                     case R.id.nalanda:
-                        Intent nalandaIntent = new Intent(BiharActivity.this, NalandaCityDetailsActivity.class);
+                        Intent nalandaIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
+                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
+                                getResources().getString(R.string.guwahati_reach_by_bus),
+                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
+                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
+                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                                R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+                        nalandaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        nalandaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        nalandaIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        nalandaIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
                         startActivity(nalandaIntent);
                         break;
                     case R.id.sonepur:
-                        Intent sonepurIntent = new Intent(BiharActivity.this, SonepurCityDetailsActivity.class);
+                        Intent sonepurIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
+                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
+                                getResources().getString(R.string.guwahati_reach_by_bus),
+                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
+                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
+                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                                R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+                        sonepurIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        sonepurIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        sonepurIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        sonepurIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
                         startActivity(sonepurIntent);
                         break;
                     case R.id.darbhanga:
-                        Intent darbhangaIntent = new Intent(BiharActivity.this, DarbhangaCityDetailsActivity.class);
+                        Intent darbhangaIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
+                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
+                                getResources().getString(R.string.guwahati_reach_by_bus),
+                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
+                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
+                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                                R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+                        darbhangaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        darbhangaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        darbhangaIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        darbhangaIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
                         startActivity(darbhangaIntent);
                         break;
                 }
