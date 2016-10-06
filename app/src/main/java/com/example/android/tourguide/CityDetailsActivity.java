@@ -13,27 +13,17 @@ public class CityDetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        // Create a list of City Details
-          ArrayList<CityDetails> cityDetail = getIntent().getParcelableArrayListExtra("cityDetail");
-//        cityDetail.add(new CityDetails(getResources().getString(R.string.patna_information), R.drawable.bihar_info));
-//
-//        // Create a list of City Hotels Details
+        // Create a list of City Details
+        ArrayList<CityDetails> cityDetail = getIntent().getParcelableArrayListExtra("cityDetail");
+
+        // Create a list of City Hotels Details
         ArrayList<CityDetails> cityHotels = getIntent().getParcelableArrayListExtra("cityHotels");
-//        cityHotels.add(new CityDetails(getResources().getString(R.string.patna_hotel1information),
-//                getResources().getString(R.string.patna_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
-//
-//        // Create a list of City Reach By Details
+
+        // Create a list of City Reach By Details
         ArrayList<CityDetails> cityReachBy = getIntent().getParcelableArrayListExtra("cityReachBy");
-//        cityReachBy.add(new CityDetails(getResources().getString(R.string.patna_reach_by_train),
-//                getResources().getString(R.string.patna_reach_by_bus),
-//                (getResources().getString(R.string.patna_reach_by_flight)), R.drawable.bihar_info));
-//
-//        // Create a list of CityMust Visit Details
-           ArrayList<CityDetails> cityMustVisit = getIntent().getParcelableArrayListExtra("cityMustVisit");
-//        cityMustVisit.add(new CityDetails(getResources().getString(R.string.patna_mustVisit_place1Information),
-//                getResources().getString(R.string.patna_mustVisit_place2Information),
-//                (getResources().getString(R.string.patna_mustVisit_place3Information)),
-//                R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+
+         // Create a list of CityMust Visit Details
+        ArrayList<CityDetails> cityMustVisit = getIntent().getParcelableArrayListExtra("cityMustVisit");
 
         //Creating a bundle to hold all the above data
         Bundle cityDetails = new Bundle();
@@ -64,5 +54,7 @@ public class CityDetailsActivity extends AppCompatActivity {
         // Give the TabLayout the ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(vpPager);
+        //setting the title on the app bar with the name of the respective city
+        this.setTitle(cityDetail.get(0).getCityname());
     }
 }

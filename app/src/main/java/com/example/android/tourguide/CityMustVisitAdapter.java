@@ -55,11 +55,11 @@ public class CityMustVisitAdapter extends ArrayAdapter<CityDetails> {
         }
         // Populate the data into the template view using the data object
         viewHolder.city_must_visit_place1_Information.setText(currentCity.getCityMustVisitPlace1());
-        viewHolder.city_must_visit_place1_image.setImageResource(currentCity.getmCityMustVisitPlace1ImageResourceId());
+        viewHolder.city_must_visit_place1_image.setImageResource(currentCity.getCityMustVisitPlace1ImageResourceId());
         viewHolder.city_must_visit_place2_Information.setText(currentCity.getCityMustVisitPlace2());
-        viewHolder.city_must_visit_place2_image.setImageResource(currentCity.getmCityMustVisitPlace2ImageResourceId());
+        viewHolder.city_must_visit_place2_image.setImageResource(currentCity.getCityMustVisitPlace2ImageResourceId());
         viewHolder.city_must_visit_place3_Information.setText(currentCity.getCityMustVisitPlace3());
-        viewHolder.city_must_visit_place3_image.setImageResource(currentCity.getmCityMustVisitPlace2ImageResourceId());
+        viewHolder.city_must_visit_place3_image.setImageResource(currentCity.getCityMustVisitPlace2ImageResourceId());
 
         return convertView;
     }

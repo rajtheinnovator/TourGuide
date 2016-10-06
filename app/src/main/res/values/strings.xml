@@ -50,6 +50,7 @@
     <string name="tawang_mustVisit_place3Information"></string>
 
     <string name="itanagar_name">Itanagar</string>
+    <string name="itanagar_information"></string>
     <string name="itanagar_hotel1information"></string>
     <string name="itanagar_hotel2information"></string>
     <string name="itanagar_reach_by_train"></string>
@@ -312,6 +313,7 @@
 
     <!--City of Delhi State with description-->
     <string name="delhi_name">Delhi</string>
+    <string name="delhi_information"></string>
     <string name="delhi_hotel1information"></string>
     <string name="delhi_hotel2information"></string>
     <string name="delhi_reach_by_train"></string>
@@ -323,6 +325,7 @@
 
     <!--City of Goa State with description-->
     <string name="goa_name">Goa</string>
+    <string name="goa_information"></string>
     <string name="goa_hotel1information"></string>
     <string name="goa_hotel2information"></string>
     <string name="goa_reach_by_train"></string>
@@ -338,7 +341,7 @@
     <string name="gurgaon_hotel1information"></string>
     <string name="gurgaon_hotel2information"></string>
     <string name="gurgaon_reach_by_train"></string>
-    <string name="gurgaonpatna_reach_by_bus"></string>
+    <string name="gurgaon_reach_by_bus"></string>
     <string name="gurgaon_reach_by_flight"></string>
     <string name="gurgaon_mustVisit_place1Information"></string>
     <string name="gurgaon_mustVisit_place2Information"></string>

@@ -44,29 +44,7 @@
             android:name=".MadhyaPradeshActivity"
             android:label="Madhya Pradesh"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".TawangCityDetailsActivity" />
-        <activity android:name=".ItanagarCityDetailsActivity" />
-        <activity android:name=".RoingCityDetailsActivity" />
-        <activity android:name=".BondilaCityDetailsActivity" />
         <activity android:name=".CityDetailsActivity" />
-        <activity android:name=".KazirangaCityDetailsActivity" />
-        <activity android:name=".OrangCityDetailsActivity" />
-        <activity android:name=".JorhatCityDetailsActivity" />
-        <activity android:name=".NameriCityDetailsActivity" />
-        <activity android:name=".ChandigarhCityDetailsActivity" />
-        <activity android:name=".DelhiCityDetailsActivity" />
-        <activity android:name=".GoaCityDetailsActivity" />
-        <activity android:name=".GurgaonCityDetailsActivity" />
-        <activity android:name=".KarnalCityDetailsActivity" />
-        <activity android:name=".KurukshetraCityDetailsActivity" />
-        <activity android:name=".PanipatCityDetailsActivity" />
-        <activity android:name=".HisarCityDetailsActivity" />
-        <activity android:name=".ZiroCityDetailsActivity" />
-        <activity android:name=".GwaliorCityDetailsActivity" />
-        <activity android:name=".IndoreCityDetailsActivity" />
-        <activity android:name=".BhopalCityDetailsActivity" />
-        <activity android:name=".KhajurahoCityDetailsActivity" />
-        <activity android:name=".SanchiCityDetailsActivity"></activity>
     </application>
 
 </manifest>

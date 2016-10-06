@@ -18,6 +18,12 @@ public class MadhyaPradeshActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.city_list);
 
+        //Create array lists for storing information related to city details, hotels, commute, and places to visit
+        final ArrayList<CityDetails> cityDetail = new ArrayList<CityDetails>();
+        final ArrayList<CityDetails> cityHotels = new ArrayList<CityDetails>();
+        final ArrayList<CityDetails> cityReachBy = new ArrayList<CityDetails>();
+        final ArrayList<CityDetails> cityMustVisit = new ArrayList<CityDetails>();
+
         final ArrayList<StatesAndCity> cities = new ArrayList<StatesAndCity>();
 
         //Currently images are just place holder one, I'll change that later on.
@@ -43,23 +49,193 @@ public class MadhyaPradeshActivity extends AppCompatActivity{
                 StatesAndCity state = cities.get(position);
                 switch (state.getmStateOrCityresourceId()) {
                     case R.id.gwalior:
-                        Intent gwaliorIntent = new Intent(MadhyaPradeshActivity.this, GwaliorCityDetailsActivity.class);
+                        Intent gwaliorIntent = new Intent(MadhyaPradeshActivity.this, CityDetailsActivity.class);
+
+                        //Clear all the details contained in the array lists for storing fresh values for this city intent
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+
+                        //Add all the details about the city related to city, hotels, commute, and places to visit
+                        //City details information here
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.gwalior_name),
+                                getResources().getString(R.string.gwalior_information), R.drawable.bihar_info));
+
+                        //City hotels information here
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.gwalior_hotel1information),
+                                getResources().getString(R.string.gwalior_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+
+                        //City how to reach there/commute information here
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gwalior_reach_by_train),
+                                getResources().getString(R.string.gwalior_reach_by_bus),
+                                (getResources().getString(R.string.gwalior_reach_by_flight)), R.drawable.bihar_info));
+
+                        //City places to visit information here
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.gwalior_mustVisit_place1Information),
+                                getResources().getString(R.string.gwalior_mustVisit_place2Information),
+                                (getResources().getString(R.string.gwalior_mustVisit_place3Information)),
+                                R.drawable.bihar_info, R.drawable.goa_info, R.drawable.bihar_info));
+
+                        //Put all the city information array lists inside the intent using parcelable class
+                        gwaliorIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        gwaliorIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        gwaliorIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        gwaliorIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+
+                        //start the city intent when it's been clicked
                         startActivity(gwaliorIntent);
                         break;
                     case R.id.indore:
-                        Intent indoreIntent = new Intent(MadhyaPradeshActivity.this, IndoreCityDetailsActivity.class);
+                        Intent indoreIntent = new Intent(MadhyaPradeshActivity.this, CityDetailsActivity.class);
+
+                        //Clear all the details contained in the array lists for storing fresh values for this city intent
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+
+                        //Add all the details about the city related to city, hotels, commute, and places to visit
+                        //City details information here
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.indore_name),
+                                getResources().getString(R.string.indore_information), R.drawable.bihar_info));
+
+                        //City hotels information here
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.indore_hotel1information),
+                                getResources().getString(R.string.indore_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+
+                        //City how to reach there/commute information here
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.indore_reach_by_train),
+                                getResources().getString(R.string.indore_reach_by_bus),
+                                (getResources().getString(R.string.indore_reach_by_flight)), R.drawable.bihar_info));
+
+                        //City places to visit information here
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.indore_mustVisit_place1Information),
+                                getResources().getString(R.string.indore_mustVisit_place2Information),
+                                (getResources().getString(R.string.indore_mustVisit_place3Information)),
+                                R.drawable.bihar_info, R.drawable.goa_info, R.drawable.bihar_info));
+
+                        //Put all the city information array lists inside the intent using parcelable class
+                        indoreIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        indoreIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        indoreIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        indoreIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+
+                        //start the city intent when it's been clicked
                         startActivity(indoreIntent);
                         break;
                     case R.id.bhopal:
-                        Intent bhopalIntent = new Intent(MadhyaPradeshActivity.this, BhopalCityDetailsActivity.class);
+                        Intent bhopalIntent = new Intent(MadhyaPradeshActivity.this, CityDetailsActivity.class);
+
+                        //Clear all the details contained in the array lists for storing fresh values for this city intent
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+
+                        //Add all the details about the city related to city, hotels, commute, and places to visit
+                        //City details information here
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.bhopal_name),
+                                getResources().getString(R.string.bhopal_information), R.drawable.bihar_info));
+
+                        //City hotels information here
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.bhopal_hotel1information),
+                                getResources().getString(R.string.bhopal_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+
+                        //City how to reach there/commute information here
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.bhopal_reach_by_train),
+                                getResources().getString(R.string.bhopal_reach_by_bus),
+                                (getResources().getString(R.string.bhopal_reach_by_flight)), R.drawable.bihar_info));
+
+                        //City places to visit information here
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.bhopal_mustVisit_place1Information),
+                                getResources().getString(R.string.bhopal_mustVisit_place2Information),
+                                (getResources().getString(R.string.bhopal_mustVisit_place3Information)),
+                                R.drawable.bihar_info, R.drawable.goa_info, R.drawable.bihar_info));
+
+                        //Put all the city information array lists inside the intent using parcelable class
+                        bhopalIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        bhopalIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        bhopalIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        bhopalIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+
+                        //start the city intent when it's been clicked
                         startActivity(bhopalIntent);
                         break;
                     case R.id.khajuraho:
-                        Intent khajurahoIntent = new Intent(MadhyaPradeshActivity.this, KhajurahoCityDetailsActivity.class);
+                        Intent khajurahoIntent = new Intent(MadhyaPradeshActivity.this, CityDetailsActivity.class);
+
+                        //Clear all the details contained in the array lists for storing fresh values for this city intent
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+
+                        //Add all the details about the city related to city, hotels, commute, and places to visit
+                        //City details information here
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.khajuraho_name),
+                                getResources().getString(R.string.khajuraho_information), R.drawable.bihar_info));
+
+                        //City hotels information here
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.khajuraho_hotel1information),
+                                getResources().getString(R.string.khajuraho_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+
+                        //City how to reach there/commute information here
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.khajuraho_reach_by_train),
+                                getResources().getString(R.string.khajuraho_reach_by_bus),
+                                (getResources().getString(R.string.khajuraho_reach_by_flight)), R.drawable.bihar_info));
+
+                        //City places to visit information here
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.khajuraho_mustVisit_place1Information),
+                                getResources().getString(R.string.khajuraho_mustVisit_place2Information),
+                                (getResources().getString(R.string.khajuraho_mustVisit_place3Information)),
+                                R.drawable.bihar_info, R.drawable.goa_info, R.drawable.bihar_info));
+
+                        //Put all the city information array lists inside the intent using parcelable class
+                        khajurahoIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        khajurahoIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        khajurahoIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        khajurahoIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+
+                        //start the city intent when it's been clicked
                         startActivity(khajurahoIntent);
                         break;
                     case R.id.sanchi:
-                        Intent sanchiIntent = new Intent(MadhyaPradeshActivity.this, SanchiCityDetailsActivity.class);
+                        Intent sanchiIntent = new Intent(MadhyaPradeshActivity.this, CityDetailsActivity.class);
+
+                        //Clear all the details contained in the array lists for storing fresh values for this city intent
+                        cityDetail.clear();
+                        cityHotels.clear();
+                        cityReachBy.clear();
+                        cityMustVisit.clear();
+
+                        //Add all the details about the city related to city, hotels, commute, and places to visit
+                        //City details information here
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.sanchi_name),
+                                getResources().getString(R.string.sanchi_information), R.drawable.bihar_info));
+
+                        //City hotels information here
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.sanchi_hotel1information),
+                                getResources().getString(R.string.sanchi_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+
+                        //City how to reach there/commute information here
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.sanchi_reach_by_train),
+                                getResources().getString(R.string.sanchi_reach_by_bus),
+                                (getResources().getString(R.string.sanchi_reach_by_flight)), R.drawable.bihar_info));
+
+                        //City places to visit information here
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.sanchi_mustVisit_place1Information),
+                                getResources().getString(R.string.sanchi_mustVisit_place2Information),
+                                (getResources().getString(R.string.sanchi_mustVisit_place3Information)),
+                                R.drawable.bihar_info, R.drawable.goa_info, R.drawable.bihar_info));
+
+                        //Put all the city information array lists inside the intent using parcelable class
+                        sanchiIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
+                        sanchiIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
+                        sanchiIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
+                        sanchiIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+
+                        //start the city intent when it's been clicked
                         startActivity(sanchiIntent);
                         break;
                 }

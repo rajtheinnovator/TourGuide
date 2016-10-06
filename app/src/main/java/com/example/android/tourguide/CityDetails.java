@@ -7,6 +7,8 @@ import android.os.Parcelable;
  * Created by ABHISHEK RAJ on 9/14/2016.
  */
 public class CityDetails implements Parcelable {
+    /* store the name of city for setting the activity title in app bar*/
+    private String mCityname;
 
     /*Variables for storing City Information*/
     private String mCityInformation;
@@ -33,7 +35,8 @@ public class CityDetails implements Parcelable {
     private int mCityMustVisitPlace3ImageResourceId;
 
     /*Constructor for "CityInformation" Fragment*/
-    public CityDetails(String information, int cityImageResourceId) {
+    public CityDetails(String cityName, String information, int cityImageResourceId) {
+        mCityname = cityName;
         mCityInformation = information;
         mCityImageResourceId = cityImageResourceId;
 
@@ -69,6 +72,8 @@ public class CityDetails implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel out, int flags) {
+        //City Name
+        out.writeString(mCityname);
         //City Information
         out.writeString(mCityInformation);
         out.writeInt(mCityImageResourceId);
@@ -92,6 +97,8 @@ public class CityDetails implements Parcelable {
     }
 
     private CityDetails(Parcel in) {
+        //City Name
+        mCityname = in.readString();
         //City Information
         mCityInformation = in.readString();
         mCityImageResourceId = in.readInt();
@@ -138,6 +145,9 @@ public class CityDetails implements Parcelable {
             return new CityDetails[size];
         }
     };
+
+    //Method for getting city name for setting that in app bar
+    public String getCityname(){return mCityname;}
 
     //Methods for City Information
     public String getCityInformation() {
@@ -195,15 +205,15 @@ public class CityDetails implements Parcelable {
         return mCityMustVisitPlace3;
     }
 
-    public int getmCityMustVisitPlace1ImageResourceId() {
+    public int getCityMustVisitPlace1ImageResourceId() {
         return mCityMustVisitPlace1ImageResourceId;
     }
 
-    public int getmCityMustVisitPlace2ImageResourceId() {
+    public int getCityMustVisitPlace2ImageResourceId() {
         return mCityMustVisitPlace2ImageResourceId;
     }
 
-    public int getmCityMustVisitPlace3ImageResourceId() {
+    public int getCityMustVisitPlace3ImageResourceId() {
         return mCityMustVisitPlace3ImageResourceId;
     }
 }

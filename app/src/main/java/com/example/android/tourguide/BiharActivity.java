@@ -53,15 +53,15 @@ public class BiharActivity extends AppCompatActivity {
                         cityHotels.clear();
                         cityReachBy.clear();
                         cityMustVisit.clear();
-                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
-                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
-                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
-                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
-                                getResources().getString(R.string.guwahati_reach_by_bus),
-                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
-                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
-                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
-                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.patna_name), getResources().getString(R.string.panipat_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.patna_hotel1information),
+                                getResources().getString(R.string.patna_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.patna_reach_by_train),
+                                getResources().getString(R.string.patna_reach_by_bus),
+                                (getResources().getString(R.string.patna_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.patna_mustVisit_place1Information),
+                                getResources().getString(R.string.patna_mustVisit_place2Information),
+                                (getResources().getString(R.string.patna_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
                         patnaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
                         patnaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
@@ -75,15 +75,15 @@ public class BiharActivity extends AppCompatActivity {
                         cityHotels.clear();
                         cityReachBy.clear();
                         cityMustVisit.clear();
-                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
-                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
-                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.bhagalpur_name), getResources().getString(R.string.bhagalpur_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.bhagalpur_hotel1information),
+                                getResources().getString(R.string.bhagalpur_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
                         cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
-                                getResources().getString(R.string.guwahati_reach_by_bus),
-                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
-                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
-                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
-                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                                getResources().getString(R.string.bhagalpur_reach_by_bus),
+                                (getResources().getString(R.string.bhagalpur_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.bhagalpur_mustVisit_place1Information),
+                                getResources().getString(R.string.bhagalpur_mustVisit_place2Information),
+                                (getResources().getString(R.string.bhagalpur_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
                         bhagalpurIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
                         bhagalpurIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
@@ -97,15 +97,15 @@ public class BiharActivity extends AppCompatActivity {
                         cityHotels.clear();
                         cityReachBy.clear();
                         cityMustVisit.clear();
-                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
-                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
-                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
-                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
-                                getResources().getString(R.string.guwahati_reach_by_bus),
-                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
-                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
-                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
-                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.bodhgaya_name), getResources().getString(R.string.bodhgaya_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.bodhgaya_hotel1information),
+                                getResources().getString(R.string.bodhgaya_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.bodhgaya_reach_by_train),
+                                getResources().getString(R.string.bodhgaya_reach_by_bus),
+                                (getResources().getString(R.string.bodhgaya_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.bodhgaya_mustVisit_place1Information),
+                                getResources().getString(R.string.bodhgaya_mustVisit_place2Information),
+                                (getResources().getString(R.string.bodhgaya_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
                         bodhgayaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
                         bodhgayaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
@@ -119,15 +119,15 @@ public class BiharActivity extends AppCompatActivity {
                         cityHotels.clear();
                         cityReachBy.clear();
                         cityMustVisit.clear();
-                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
-                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
-                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
-                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
-                                getResources().getString(R.string.guwahati_reach_by_bus),
-                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
-                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
-                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
-                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.nalanda_name), getResources().getString(R.string.nalanda_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.nalanda_hotel1information),
+                                getResources().getString(R.string.nalanda_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.nalanda_reach_by_train),
+                                getResources().getString(R.string.nalanda_reach_by_bus),
+                                (getResources().getString(R.string.nalanda_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.nalanda_mustVisit_place1Information),
+                                getResources().getString(R.string.nalanda_mustVisit_place2Information),
+                                (getResources().getString(R.string.nalanda_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
                         nalandaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
                         nalandaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
@@ -141,15 +141,15 @@ public class BiharActivity extends AppCompatActivity {
                         cityHotels.clear();
                         cityReachBy.clear();
                         cityMustVisit.clear();
-                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
-                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
-                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
-                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
-                                getResources().getString(R.string.guwahati_reach_by_bus),
-                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
-                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
-                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
-                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.sonepur_name), getResources().getString(R.string.sonepur_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.sonepur_hotel1information),
+                                getResources().getString(R.string.sonepur_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.sonepur_reach_by_train),
+                                getResources().getString(R.string.sonepur_reach_by_bus),
+                                (getResources().getString(R.string.sonepur_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.sonepur_mustVisit_place1Information),
+                                getResources().getString(R.string.sonepur_mustVisit_place2Information),
+                                (getResources().getString(R.string.sonepur_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
                         sonepurIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
                         sonepurIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
@@ -159,24 +159,28 @@ public class BiharActivity extends AppCompatActivity {
                         break;
                     case R.id.darbhanga:
                         Intent darbhangaIntent = new Intent(BiharActivity.this, CityDetailsActivity.class);
+                        //Clear all the details contained in the array lists for storing fresh values for this city intent
                         cityDetail.clear();
                         cityHotels.clear();
                         cityReachBy.clear();
                         cityMustVisit.clear();
-                        cityDetail.add(new CityDetails(getResources().getString(R.string.guwahati_information), R.drawable.bihar_info));
-                        cityHotels.add(new CityDetails(getResources().getString(R.string.guwahati_hotel1information),
-                                getResources().getString(R.string.guwahati_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
-                        cityReachBy.add(new CityDetails(getResources().getString(R.string.gurgaon_reach_by_train),
-                                getResources().getString(R.string.guwahati_reach_by_bus),
-                                (getResources().getString(R.string.guwahati_reach_by_flight)), R.drawable.bihar_info));
-                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.guwahati_mustVisit_place1Information),
-                                getResources().getString(R.string.guwahati_mustVisit_place2Information),
-                                (getResources().getString(R.string.guwahati_mustVisit_place3Information)),
+                        //Add all the details about the city related to city, hotels, commute, and places to visit
+                        cityDetail.add(new CityDetails(getResources().getString(R.string.darbhanga_name), getResources().getString(R.string.darbhanga_information), R.drawable.bihar_info));
+                        cityHotels.add(new CityDetails(getResources().getString(R.string.darbhanga_hotel1information),
+                                getResources().getString(R.string.darbhanga_hotel2information), R.drawable.bihar_info, R.drawable.bihar_info));
+                        cityReachBy.add(new CityDetails(getResources().getString(R.string.darbhanga_reach_by_train),
+                                getResources().getString(R.string.darbhanga_reach_by_bus),
+                                (getResources().getString(R.string.darbhanga_reach_by_flight)), R.drawable.bihar_info));
+                        cityMustVisit.add(new CityDetails(getResources().getString(R.string.darbhanga_mustVisit_place1Information),
+                                getResources().getString(R.string.darbhanga_mustVisit_place2Information),
+                                (getResources().getString(R.string.darbhanga_mustVisit_place3Information)),
                                 R.drawable.bihar_info,  R.drawable.bihar_info,  R.drawable.bihar_info));
+                        //Put all the city information array lists inside the intent using parcelable class
                         darbhangaIntent.putParcelableArrayListExtra("cityDetail", cityDetail);
                         darbhangaIntent.putParcelableArrayListExtra("cityHotels", cityHotels);
                         darbhangaIntent.putParcelableArrayListExtra("cityReachBy", cityReachBy);
                         darbhangaIntent.putParcelableArrayListExtra("cityMustVisit", cityMustVisit);
+                        //start the city intent when it's been clicked
                         startActivity(darbhangaIntent);
                         break;
                 }
