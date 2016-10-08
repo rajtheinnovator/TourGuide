@@ -1,5 +1,6 @@
 package com.example.android.tourguide;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -22,7 +23,7 @@ public class CityDetailsActivity extends AppCompatActivity {
         // Create a list of City Reach By Details
         ArrayList<CityDetails> cityReachBy = getIntent().getParcelableArrayListExtra("cityReachBy");
 
-         // Create a list of CityMust Visit Details
+        // Create a list of CityMust Visit Details
         ArrayList<CityDetails> cityMustVisit = getIntent().getParcelableArrayListExtra("cityMustVisit");
 
         //Creating a bundle to hold all the above data
@@ -56,5 +57,12 @@ public class CityDetailsActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(vpPager);
         //setting the title on the app bar with the name of the respective city
         this.setTitle(cityDetail.get(0).getCityname());
+    }
+
+    //Setting Up Button in the app bar so that it takes back to the activity from which this activity was called
+    @Override
+    public Intent getSupportParentActivityIntent() {
+        Intent newIntent = new Intent(CityDetailsActivity.this, getIntent().getClass());
+        return newIntent;
     }
 }

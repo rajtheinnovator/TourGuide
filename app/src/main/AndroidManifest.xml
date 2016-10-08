@@ -19,7 +19,9 @@
             android:name=".AssamActivity"
             android:label="Assam"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ArunachalActivity" />
+        <activity android:name=".ArunachalActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/arunachal"/>
         <activity
             android:name=".BiharActivity"
             android:label="@string/bihar"
@@ -44,8 +46,9 @@
             android:name=".MadhyaPradeshActivity"
             android:label="Madhya Pradesh"
             android:parentActivityName=".MainActivity" />
+        <!--Setting a fake parent activity on City DetailsActivity so that Up button shows up-->
         <activity android:name=".CityDetailsActivity"
-            android:parentActivityName=""/>
+            android:parentActivityName=".ArunachalActivity"/>
     </application>
 
 </manifest>
