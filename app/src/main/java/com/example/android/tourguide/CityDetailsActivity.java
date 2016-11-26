@@ -7,6 +7,13 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.android.tourguide.Adapters.CityDetailsPagerAdapter;
+import com.example.android.tourguide.Fragments.CityHotelsFragment;
+import com.example.android.tourguide.Fragments.CityInformationFragment;
+import com.example.android.tourguide.Fragments.CityMustVisitFragment;
+import com.example.android.tourguide.Fragments.CityReachByFragment;
+import com.example.android.tourguide.Model.CityDetails;
+
 import java.util.ArrayList;
 
 public class CityDetailsActivity extends AppCompatActivity {

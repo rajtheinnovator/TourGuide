@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.Model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

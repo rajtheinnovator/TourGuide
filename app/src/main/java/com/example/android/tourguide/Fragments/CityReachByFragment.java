@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,14 +7,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.example.android.tourguide.Adapters.CityReachByAdapter;
+import com.example.android.tourguide.Model.CityDetails;
+import com.example.android.tourguide.R;
+
 import java.util.ArrayList;
 
 /**
  * Created by ABHISHEK RAJ on 9/14/2016.
  */
-public class CityHotelsFragment extends Fragment {
+public class CityReachByFragment extends Fragment {
 
-    public CityHotelsFragment() {
+    public CityReachByFragment() {
         // Required empty public constructor
     }
 
@@ -26,11 +30,11 @@ public class CityHotelsFragment extends Fragment {
         Bundle bundle = getArguments();
 
         if ((bundle != null)) {
-            ArrayList<CityDetails> cityHotel = getArguments().getParcelableArrayList("cityHotels");
+            ArrayList<CityDetails> cityReachBy = getArguments().getParcelableArrayList("cityReachBy");
 
             // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
             // adapter knows how to create list items for each item in the list.
-            CityHotelsAdapter adapter = new CityHotelsAdapter(getActivity(), cityHotel);
+            CityReachByAdapter cityReachByAdapter = new CityReachByAdapter(getActivity(), cityReachBy);
 
             // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
             // There should be a {@link ListView} with the view ID called list, which is declared in the
@@ -39,7 +43,7 @@ public class CityHotelsFragment extends Fragment {
 
             // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
             // {@link ListView} will display list items for each {@link Word} in the list.
-            listView.setAdapter(adapter);
+            listView.setAdapter(cityReachByAdapter);
         }
 
         return rootView;

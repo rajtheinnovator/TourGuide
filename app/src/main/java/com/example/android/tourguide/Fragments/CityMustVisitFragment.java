@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,6 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+
+import com.example.android.tourguide.Adapters.CityMustVisitAdapter;
+import com.example.android.tourguide.Model.CityDetails;
+import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,4 @@
-package com.example.android.tourguide;
-
-import android.widget.TextView;
+package com.example.android.tourguide.Model;
 
 /**
  * Created by ABHISHEK RAJ on 9/13/2016.

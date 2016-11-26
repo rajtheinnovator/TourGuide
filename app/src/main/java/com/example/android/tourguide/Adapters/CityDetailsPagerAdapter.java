@@ -1,10 +1,16 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.Adapters;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.android.tourguide.Model.CityDetails;
+import com.example.android.tourguide.Fragments.CityHotelsFragment;
+import com.example.android.tourguide.Fragments.CityInformationFragment;
+import com.example.android.tourguide.Fragments.CityMustVisitFragment;
+import com.example.android.tourguide.Fragments.CityReachByFragment;
 
 import java.util.ArrayList;
 

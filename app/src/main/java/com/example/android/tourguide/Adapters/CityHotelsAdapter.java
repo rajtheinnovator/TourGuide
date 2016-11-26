@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,21 +8,24 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.android.tourguide.Model.CityDetails;
+import com.example.android.tourguide.R;
+
 import java.util.ArrayList;
 
 /**
  * Created by ABHISHEK RAJ on 9/13/2016.
  */
-public class CityReachByAdapter extends ArrayAdapter<CityDetails> {
+public class CityHotelsAdapter extends ArrayAdapter<CityDetails> {
     // View lookup cache
     private static class ViewHolder {
-        TextView city_reach_by_train;
-        TextView city_reach_by_bus;
-        TextView city_reach_by_flight;
-        ImageView city_train_station_image;
+        TextView city_hotel1_Information;
+        ImageView city_hotel1_image;
+        TextView city_hotel2_Information;
+        ImageView city_hotel2_image;
     }
 
-    public CityReachByAdapter(Context context, ArrayList<CityDetails> cityDetails) {
+    public CityHotelsAdapter(Context context, ArrayList<CityDetails> cityDetails) {
         super(context, 0, cityDetails);
     }
 
@@ -36,12 +39,12 @@ public class CityReachByAdapter extends ArrayAdapter<CityDetails> {
             // If there's no view to re-use, inflate a brand new view for row
             viewHolder = new ViewHolder();
             LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = inflater.inflate(R.layout.city_reach_by_item, parent, false);
+            convertView = inflater.inflate(R.layout.city_hotels_item, parent, false);
                         /*Find the TextView and ImageView and set them on the VIewHolder*/
-            viewHolder.city_train_station_image = (ImageView) convertView.findViewById(R.id.city_reach_by_train_station_image);
-            viewHolder.city_reach_by_train = (TextView) convertView.findViewById(R.id.city_reach_by_train);
-            viewHolder.city_reach_by_bus = (TextView) convertView.findViewById(R.id.city_reach_by_bus);
-            viewHolder.city_reach_by_flight = (TextView) convertView.findViewById(R.id.city_reach_by_flight);
+            viewHolder.city_hotel1_Information = (TextView) convertView.findViewById(R.id.city_hotel1Information);
+            viewHolder.city_hotel2_Information = (TextView) convertView.findViewById(R.id.city_hotel2_Information);
+            viewHolder.city_hotel1_image = (ImageView) convertView.findViewById(R.id.city_hotel1_image);
+            viewHolder.city_hotel2_image = (ImageView) convertView.findViewById(R.id.city_hotel2_image);
 
             // Cache the viewHolder object inside the fresh view
             convertView.setTag(viewHolder);
@@ -50,10 +53,10 @@ public class CityReachByAdapter extends ArrayAdapter<CityDetails> {
             viewHolder = (ViewHolder) convertView.getTag();
         }
         // Populate the data into the template view using the data object
-        viewHolder.city_train_station_image.setImageResource(currentCity.getCityTrainStationImageResourceId());
-        viewHolder.city_reach_by_train.setText(currentCity.getCityReachByTrain());
-        viewHolder.city_reach_by_bus.setText(currentCity.getCityReachByBus());
-        viewHolder.city_reach_by_flight.setText(currentCity.getCityReachByFlight());
+        viewHolder.city_hotel1_Information.setText(currentCity.getCityHotel1());
+        viewHolder.city_hotel1_image.setImageResource(currentCity.getCityHotel1ImageResourceId());
+        viewHolder.city_hotel2_Information.setText(currentCity.getCityHotel2());
+        viewHolder.city_hotel2_image.setImageResource(currentCity.getCityHotel2ImageResourceId());
 
         return convertView;
     }

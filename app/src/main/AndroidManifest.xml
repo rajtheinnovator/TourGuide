@@ -16,39 +16,39 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AssamActivity"
+            android:name=".StateActivities.AssamActivity"
             android:label="Assam"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ArunachalActivity"
+        <activity android:name=".StateActivities.ArunachalActivity"
             android:parentActivityName=".MainActivity"
             android:label="@string/arunachal"/>
         <activity
-            android:name=".BiharActivity"
+            android:name=".StateActivities.BiharActivity"
             android:label="@string/bihar"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".ChandigarhActivity"
+            android:name=".StateActivities.ChandigarhActivity"
             android:label="Chandigarh"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".DelhiActivity"
+            android:name=".StateActivities.DelhiActivity"
             android:label="Delhi"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".GoaActivity"
+            android:name=".StateActivities.GoaActivity"
             android:label="Goa"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".HaryanaActivity"
+            android:name=".StateActivities.HaryanaActivity"
             android:label="Haryana"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".MadhyaPradeshActivity"
+            android:name=".StateActivities.MadhyaPradeshActivity"
             android:label="Madhya Pradesh"
             android:parentActivityName=".MainActivity" />
         <!--Setting a fake parent activity on City DetailsActivity so that Up button shows up-->
         <activity android:name=".CityDetailsActivity"
-            android:parentActivityName=".ArunachalActivity"/>
+            android:parentActivityName=".StateActivities.ArunachalActivity"/>
     </application>
 
 </manifest>

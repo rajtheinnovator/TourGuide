@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.StateActivities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.example.android.tourguide.Model.CityDetails;
+import com.example.android.tourguide.CityDetailsActivity;
+import com.example.android.tourguide.Adapters.CityListAdapter;
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.Model.StatesAndCity;
 
 import java.util.ArrayList;
 
